@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-html {
+body {
     font-family: 'Maven Pro', sans-serif;
     background-color: rgb(236, 235, 235);
     font-size: 62.5%;
@@ -59,8 +59,7 @@ li a:hover{
 }
 
 .item2 {
-    background-image: url(./assets/item-two.jpeg);
-    
+    background-image: url(./assets/item-two.jpeg); 
 }
 
 .item3 {
@@ -91,7 +90,6 @@ li a:hover{
 .item8 {
     background-image: url(./assets/item-eight.jpeg);
     grid-area: 3/1/5/3;
-
 }
 
 .item9 {
@@ -120,7 +118,6 @@ p:nth-child(2) {
 
 .container {
     position: relative;
-    
 }
 
 .text {
