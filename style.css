@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Maven Pro', sans-serif;
+    background-color: rgb(236, 235, 235);
+    font-size: 62.5%;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+}
+
+ ul li:nth-child(1), ul li:nth-child(6) {
+    grid-column: span 2;
+    font-weight: bold;
+ }
+
+li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color:black;
+    font-size: 2.5rem;
+}
+
+.container div {
+   margin: 7px;
+}
+ 
+.container {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);  
+}
+
+.item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item1 {
+    background-image: url(./assets/item-one.jpeg);  
+}
+
+.item2 {
+    background-image: url(./assets/item-two.jpeg);
+    
+}
+
+.item3 {
+    background-image: url(./assets/item-three.jpeg); 
+    grid-area: 4/7/5/8; 
+}
+
+.item4 {
+    background-image: url(./assets/item-four.jpeg);
+    grid-area: 3/6/4/7;
+}
+
+.item5 {
+    background-image: url(./assets/item-five.jpeg);
+    grid-area: 2/5/3/6;
+}
+
+.item6 {
+    background-image: url(./assets/item-six.jpeg);
+    grid-area: 2/3/3/4;
+}
+
+.item7 {
+    background-image: url(./assets/item-seven.jpeg);
+    grid-area: 3/4/4/5;
+}
+
+.item8 {
+    background-image: url(./assets/item-eight.jpeg);
+    grid-area: 3/1/5/3;
+
+}
+
+.item9 {
+    background-image: url(./assets/item-nine.jpeg);
+    grid-area: 1/7/3/9;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    padding: 1rem;
+}
+
+p:nth-child(1) {
+    grid-column: span 5;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p:nth-child(2) {
+    grid-column: span 3;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.container {
+    position: relative;
+    
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 12rem;
+  letter-spacing: 1rem;
+}
