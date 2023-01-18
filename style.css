@@ -34,6 +34,9 @@ li a {
     font-size: 2.5rem;
 }
 
+li a:hover{
+    text-decoration: overline 3px red;
+}
 .container div {
    margin: 7px;
 }
@@ -50,6 +53,7 @@ li a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .item1 {
     background-image: url(./assets/item-one.jpeg);  
 }
